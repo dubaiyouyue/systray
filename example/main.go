@@ -45,7 +45,7 @@ func addQuitItem() {
 	})
 }
 
-func onReady() {
+func onReady() {1
 	fmt.Println("systray.onReady")
 	systray.SetTemplateIcon(icon.Data, icon.Data)
 	systray.SetTitle("Energy Sys Tray")
